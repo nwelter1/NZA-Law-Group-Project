@@ -11,6 +11,26 @@
 }
 
 
+.header{
+    grid-area: header;
+}
+
+.whatwedo{
+    grid-area: whatwedo;
+}
+.background-left{
+    grid-area: backgroud-left;
+}
+.background-right{
+    grid-area: background-right;
+}
+
+
+
+
+.container{
+    color: #c04000;
+}
 
 
 
@@ -48,3 +68,6 @@
 
 
 /* Nebras Start CSS Section */
+.description{
+    grid-area: description;
+}
