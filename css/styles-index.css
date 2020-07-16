@@ -1,0 +1,19 @@
+.grid-wrapper {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 0.5fr;
+    grid-template-areas:
+        "bg-left    logo    logo    bg-right"
+        "bg-left    cn      side    bg-right"
+        "bg-left    footer  footer  bg-right";
+}
+
+.cn {
+    grid-area: cn;
+}
+
+.side {
+    grid-area: side;
+}
