@@ -1,0 +1,69 @@
+body{
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.grid-wrapper{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    grid-template-rows: 1fr 3fr .5fr;
+    grid-template-areas: 
+    "header   header     header"
+    "right    middlepics   blank"
+    "footer   footer       footer";  
+}
+
+.header{
+    grid-area: header;
+    background-color: tan;                                                      
+}
+
+.footer{
+    grid-area: footer;
+    background-color: tan;                                                      
+}
+
+.right{  
+    background-color: tan;
+}
+
+.blank{
+    background-color:tan;
+}
+
+.middlepics{    
+    background-color: white;
+}
+
+.who-we-are{
+    margin:2.5vh 2vw 0vh 2.5vw;
+    width: 28%;
+    height:80%;
+    background-color: brown;
+}
+
+h3{
+    font-weight: lighter;
+    padding: .80em 0 0 1.5em;   
+    color:white;
+}
+
+hr{
+    color: white;
+}
+
+ul{
+    list-style: none;
+    line-height:175%;
+    color: white;
+    padding: .80em 1em 1em 1.5em; 
+}  
+
+
+
+
+
+
+
