@@ -12,7 +12,7 @@ body{
     width: 100vw;
     height: 100vh;
     grid-template-columns: 1fr 2.5fr 1fr;
-    grid-template-rows: 1fr 3fr .5fr;
+    grid-template-rows: 1fr 3.5fr .5fr;
     grid-template-areas: 
     "header   header    header"
     "right    middlepics   blank"
@@ -20,19 +20,13 @@ body{
 }
 
 .header{
-    grid-area: header;
-                                                       
+    grid-area: header;                                                       
 }
-
-.footer{
-    grid-area: footer;                                                
-}
-
-
 
 .middlepics{    
-    background-color: white;
+    background-color: white;  
 }
+
 /*left column */
 .who-we-are {
     float: left;
@@ -101,36 +95,72 @@ div.info-text p{
     margin: .1vh 0 2vh 1vw;    
 }
 
- /* left picture div  margin:2.5vh 1.5vw 0vh 2vw;*/
- /*.left-pictures {
-    float: left;
-    margin:0 1vw 0vh 0vw;
-    width: 25%;
-    height: 45%;
-    margin-top:.5vh;
-    background-color: bisque; 
-}*/
-
 .inline-pics{
     display:inline-block;
     margin-left: 1vw;
     border: 4px double rgb(71, 70, 70);
 }
 
-/*.right-pictures {
-    float: left;
-    margin-left:10vw;
-    width: 60%;
-    height: 30%;
-    margin-top:.5vh;
-    background-color: rgb(231, 152, 56); 
+/*@-moz-document url-prefix() {
+    .inline-pics {
+        display:inline-block;
+        margin-left: .1vw;
+        border: 4px double rgb(71, 70, 70);
+    }
 }*/
 
 .inline-pics2{
     display:inline-block;
     margin-left: .25vw;
     border: 4px double rgb(71, 70, 70);
-} 
+}
+
+/*@-moz-document url-prefix() {
+    .inline-pics2 {
+        display:inline-block;
+        margin-top: 1vh;
+        margin-left: 20vw;
+        border: 4px double rgb(71, 70, 70);
+    }
+}*/
+
+.footer{
+    grid-area: footer;
+    margin:  0vh 22.2vw 4vh 22.2vw;
+    background-color: white;
+    border-top: 1px solid black;                                             
+}
+
+.footnav ul{
+    float: none;
+    margin-bottom: 0.5vh;     
+}
+
+.footnav{
+    float: none;
+    text-align: center;
+}
+
+.footnav ul li{   
+    float: none;  
+    display: inline; 
+    color: black;
+}
+
+.footnav a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.footnav p{     
+    color: grey;
+    font-size: 0.75em;
+    margin-bottom:.5vh
+}
+
+
+
+
  
  
 
