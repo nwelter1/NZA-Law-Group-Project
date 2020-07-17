@@ -14,6 +14,18 @@
         "background-left footer      footer       background-right";
 }
 
+.description  {
+    grid-area: description;
+}
+.images{
+    grid-area: description;
+}
+
+
+
+
+
+
 
 .header{
     grid-area: header;
