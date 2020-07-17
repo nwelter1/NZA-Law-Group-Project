@@ -70,7 +70,10 @@
 .footnav ul{
     float: none;
     margin-bottom: 0.5vh;
-
+}
+.footnav a{
+    color: inherit;
+    text-decoration: none;
 }
 .footnav{
     float: none;
@@ -79,6 +82,7 @@
 .footnav ul li{
     float: none;
     display: inline;
+    
 }
 .copyright{
     color: grey;
