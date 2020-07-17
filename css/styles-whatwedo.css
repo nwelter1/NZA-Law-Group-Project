@@ -1,3 +1,7 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .gridwrapper{
     display: grid;
     width: 100vw;
@@ -30,6 +34,67 @@
 
 
 
+
+
+.header{
+    grid-area: header;
+}
+.topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.topnav li{
+    display: inline;
+    float:left;
+}
+.topnav a{
+    display: block;
+    padding: 12px;
+
+}
+
+.whatwedo{
+    grid-area: whatwedo;
+}
+.background-left{
+    grid-area: backgroud-left;
+}
+.background-right{
+    grid-area: background-right;
+}
+
+.box{
+    background-color: brown;
+    height: 80%;
+    width: 90%;
+    color: white;
+}
+.box-title{
+    margin-left: 5%;
+    padding-top: 7%;
+}
+
+.line{
+    border: 1px solid white;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+.services{
+    margin-left: 7%;
+    font-size: 0.8em;
+}
+
+.list-head{
+    margin-bottom: 1px;
+}
+.sub-list{
+    display:block;
+    margin-left:5%;
+    margin-top: 1px;
+    margin-bottom:1px;
+
+}
 
 
 
@@ -69,3 +134,6 @@
 
 
 /* Nebras Start CSS Section */
+.description{
+    grid-area: description;
+}
