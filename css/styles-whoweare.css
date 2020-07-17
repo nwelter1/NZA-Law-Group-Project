@@ -20,7 +20,9 @@ body{
 }
 
 .header{
-    grid-area: header;                                                       
+    grid-area: header;    
+    margin:  0vh 22.2vw 0vh 22.2vw;
+    background-color: white;
 }
 
 .middlepics{    
@@ -132,8 +134,9 @@ div.info-text p{
 }
 
 .footnav ul{
-    float: none;
-    margin-bottom: 0.5vh;     
+    float: none;  
+    margin-top: .025vh;
+    margin-bottom:-1vh;        
 }
 
 .footnav{
@@ -155,7 +158,9 @@ div.info-text p{
 .footnav p{     
     color: grey;
     font-size: 0.75em;
-    margin-bottom:.5vh
+    margin-top: 0;
+    margin-bottom: 2vh;
+
 }
 
 
