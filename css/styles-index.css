@@ -1,0 +1,69 @@
+.grid-wrapper {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 0.5fr;
+    grid-template-areas:
+        "bg-left    logo    logo    bg-right"
+        "bg-left    cn      side    bg-right"
+        "bg-left    footer  footer  bg-right";
+}
+
+/*Text Styling for the Screem.*/
+.bold {
+    font-weight: bold;
+}
+
+/*Middle content of the Home Screen.*/
+
+.cn {
+    grid-area: cn;
+    margin-left: 5vh;
+    margin-top: 6vh;
+}
+
+.home-image {
+    max-width: 100%;
+    height: auto;
+    padding: 0.5vmin;
+    margin-bottom: 5vh;
+    border: 3px solid #a09fa0;
+    box-shadow: 0 0 0 9px #5e4f3a;
+    outline: solid 6px #fff;
+}
+
+.cn-text {
+    margin-right: 30%;
+    line-height: 1.25;
+}
+
+/*Side Portion of the Home Screen.*/
+.side {
+    grid-area: side;
+    margin-top: 5vh;
+}
+
+.scrollbar {
+    padding: 5px;
+    margin-bottom: 10vh;
+    color: white;
+    background-color: #800000; 
+    width: 250px;
+    max-height: 35%; 
+    overflow-x: hidden; 
+    overflow-y: auto; 
+}
+
+.scrollbar p, hr {
+    margin: 5% 30% 0 5%;
+    line-height: 1.25;
+}
+
+hr {
+    color: white;
+}
+
+.contact-email {
+    color: #800000;
+}
