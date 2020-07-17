@@ -1,5 +1,9 @@
+
+
 body{
-    background-color: tan;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://thedesignest.net/wp-content/uploads/2019/06/Light-Brown-Wooden-Texture.jpg");
     font-family: Arial, Helvetica, sans-serif
 }
 
@@ -10,28 +14,21 @@ body{
     grid-template-columns: 1fr 2.5fr 1fr;
     grid-template-rows: 1fr 3fr .5fr;
     grid-template-areas: 
-    "header   header     header"
+    "header   header    header"
     "right    middlepics   blank"
     "footer   footer       footer";  
 }
 
 .header{
     grid-area: header;
-    background-color: tan;                                                      
+                                                       
 }
 
 .footer{
-    grid-area: footer;
-    background-color: tan;                                                      
+    grid-area: footer;                                                
 }
 
-.right{  
-    background-color: tan;
-}
 
-.blank{
-    background-color:tan;
-}
 
 .middlepics{    
     background-color: white;
@@ -40,22 +37,25 @@ body{
 .who-we-are {
     float: left;
     margin:2.5vh 1vw 0vh 2vw;
-    width: 25%;    
-    height: 80%;
-    background-color:#a82a45;    
+    /*width: 25%;    
+    height: 83%;*/
+    width: 14vw;
+    height:55vh;
+    background-color:#800000;    
   }
 
 
 h3{
     font-weight: lighter;
     font-size: 18px;
+    margin-left:1vw;
     padding: 1.75em 0 0 .75em;   
     color:white;
 }
 
 .line{
     color: white;
-    padding-left: 1.20em ;
+    padding-left: 1.20em;
 }
 
 ul{
@@ -63,7 +63,7 @@ ul{
     font-size: 17px;
     line-height:175%;
     color: white;
-    padding: .80em 1em 1em 1.5em; 
+    padding: 1em 1em 1em 1.5em; 
 }
 
 .logo-img{
@@ -72,8 +72,8 @@ ul{
 }
 
 h6{
-    margin: 0em 0em 0em 1em;
-    font-size: 18px ;
+    margin:.5em 0em 0em 1em;
+    font-size: 17px ;
     color:white;
 }
 
@@ -86,32 +86,50 @@ p{
  /* Right column  margin:2.5vh 1.5vw 0vh 2vw;*/
 .info-text {
     float: left;
-    width: 62%;
-    height: 90%;
-    margin-top:.5vh;   
-    ;
-  }
-  
+    /*width: 62%;
+    height: 90%;*/
+    width:35vw;
+    height:60vh;
+    margin-top:2.3vh;
+    
+}
 
 div.info-text p{
     color: black;
     font-size: 18px;
     line-height:160%;
-    margin: 2vh 0 2vh 1vw;    
+    margin: .1vh 0 2vh 1vw;    
 }
 
-
+ /* left picture div  margin:2.5vh 1.5vw 0vh 2vw;*/
+ /*.left-pictures {
+    float: left;
+    margin:0 1vw 0vh 0vw;
+    width: 25%;
+    height: 45%;
+    margin-top:.5vh;
+    background-color: bisque; 
+}*/
 
 .inline-pics{
     display:inline-block;
     margin-left: 1vw;
-    border: 3px double rgb(71, 70, 70);
+    border: 4px double rgb(71, 70, 70);
 }
+
+/*.right-pictures {
+    float: left;
+    margin-left:10vw;
+    width: 60%;
+    height: 30%;
+    margin-top:.5vh;
+    background-color: rgb(231, 152, 56); 
+}*/
 
 .inline-pics2{
     display:inline-block;
     margin-left: .25vw;
-    border: 3px double rgb(71, 70, 70);
+    border: 4px double rgb(71, 70, 70);
 } 
  
  
