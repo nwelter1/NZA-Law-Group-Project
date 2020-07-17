@@ -36,15 +36,15 @@ body{
 .middlepics{    
     background-color: white;
 }
-
-.who-we-are{
-  
-    margin:2.5vh 2vw 0vh 2.5vw;
-    width: 25%;
+/*left column */
+.who-we-are {
+    float: left;
+    margin:2.5vh 1vw 0vh 2vw;
+    width: 25%;    
     height: 80%;
-    float:left;
-    background-color:#a82a45 ;
-}
+    background-color:#a82a45;    
+  }
+
 
 h3{
     font-weight: lighter;
@@ -60,7 +60,7 @@ h3{
 
 ul{
     list-style: none;
-    font-size: 14px;
+    font-size: 17px;
     line-height:175%;
     color: white;
     padding: .80em 1em 1em 1.5em; 
@@ -72,45 +72,39 @@ ul{
 }
 
 h6{
-    margin: 0em 0em 0em 1.5em;
+    margin: 0em 0em 0em 1em;
+    font-size: 18px ;
     color:white;
 }
 
 p{
-    margin: 0em 0em 0em 1.5em;
-    font-size: 10px;
+    margin: 0em .8em 0em 1em;
+    font-size: 15px;
     color:white;
 }
-/*.info-text{
-   
-    bottom: 30vh;
-    margin-left: 245px;
-    
-    width:60%;
-    height:150px;
-    background-color: rgb(212, 233, 110);
-}*/
 
-.info-text{  
+ /* Right column  margin:2.5vh 1.5vw 0vh 2vw;*/
+.info-text {
     float: left;
-    margin:2.5vh .5vw 10vh 18vw;
-    width: 65%;
-    height:80%;
-    background-color: rgb(212, 233, 110);
-}
-
+    width: 62%;
+    height: 90%;
+    margin-top:.5vh;   
+    ;
+  }
+  
 
 div.info-text p{
     color: black;
-    font-size: 14px;
-    margin: 2vh 4vw 1vh 2vw;    
+    font-size: 18px;
+    line-height:160%;
+    margin: 2vh 0 2vh 1vw;    
 }
-/*margin: 2vh 5vw .5vh 2vw;*/
+
 
 
 .inline-pics{
     display:inline-block;
-    margin-left: 2vw;
+    margin-left: 1vw;
     border: 3px double rgb(71, 70, 70);
 }
 
