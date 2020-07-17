@@ -38,28 +38,92 @@ body{
 }
 
 .who-we-are{
+  
     margin:2.5vh 2vw 0vh 2.5vw;
-    width: 28%;
-    height:80%;
-    background-color: brown;
+    width: 25%;
+    height: 80%;
+    float:left;
+    background-color:#a82a45 ;
 }
 
 h3{
     font-weight: lighter;
-    padding: .80em 0 0 1.5em;   
+    font-size: 18px;
+    padding: 1.75em 0 0 .75em;   
     color:white;
 }
 
-hr{
+.line{
     color: white;
+    padding-left: 1.20em ;
 }
 
 ul{
     list-style: none;
+    font-size: 14px;
     line-height:175%;
     color: white;
     padding: .80em 1em 1em 1.5em; 
-}  
+}
+
+.logo-img{
+    display:block;
+    margin: 0em 0em 0em 1.0em;
+}
+
+h6{
+    margin: 0em 0em 0em 1.5em;
+    color:white;
+}
+
+p{
+    margin: 0em 0em 0em 1.5em;
+    font-size: 10px;
+    color:white;
+}
+/*.info-text{
+   
+    bottom: 30vh;
+    margin-left: 245px;
+    
+    width:60%;
+    height:150px;
+    background-color: rgb(212, 233, 110);
+}*/
+
+.info-text{  
+    float: left;
+    margin:2.5vh .5vw 10vh 18vw;
+    width: 65%;
+    height:80%;
+    background-color: rgb(212, 233, 110);
+}
+
+
+div.info-text p{
+    color: black;
+    font-size: 14px;
+    margin: 2vh 4vw 1vh 2vw;    
+}
+/*margin: 2vh 5vw .5vh 2vw;*/
+
+
+.inline-pics{
+    display:inline-block;
+    margin-left: 2vw;
+    border: 3px double rgb(71, 70, 70);
+}
+
+.inline-pics2{
+    display:inline-block;
+    margin-left: .25vw;
+    border: 3px double rgb(71, 70, 70);
+} 
+ 
+ 
+
+
+
 
 
 
