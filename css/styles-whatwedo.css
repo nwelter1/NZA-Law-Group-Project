@@ -24,7 +24,11 @@
     border: 10px solid transparent;
     margin: 10em auto;
 }
-.Box1{
+.Box1 img{
+    height: 10em;
+    width: 20em;
+}
+.Box2 img{
     height: 10em;
     width: 20em;
 }
