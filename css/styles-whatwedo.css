@@ -23,14 +23,21 @@
     grid-area: description;
     border: 10px solid transparent;
     margin: 10em auto;
+    
 }
 .Box1 img{
     height: 10em;
     width: 20em;
+    border-style: double;
+    border-width: 5px;
+    border-color: black;
 }
 .Box2 img{
     height: 10em;
     width: 20em;
+    border-style: double;
+    border-width: 5px;
+    border-color: black;
 }
 
 
