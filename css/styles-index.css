@@ -1,8 +1,12 @@
+* {
+    padding: 0;
+}
+
 .grid-wrapper {
     display: grid;
     width: 100vw;
     height: 100vh;
-    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-columns: 1.5fr 3.5fr 1.5fr 1.5fr;
     grid-template-rows: 1fr 3fr 0.5fr;
     grid-template-areas:
         "bg-left    logo    logo    bg-right"
@@ -10,60 +14,109 @@
         "bg-left    footer  footer  bg-right";
 }
 
-/*Text Styling for the Screem.*/
+/*Text and Background Styling for the Screem.*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://thedesignest.net/wp-content/uploads/2019/06/Light-Brown-Wooden-Texture.jpg);
+}
+
 .bold {
     font-weight: bold;
 }
 
 /*Middle content of the Home Screen.*/
+.logo {
+    grid-area: logo;
+    background-color: white;
+}
 
 .cn {
     grid-area: cn;
-    margin-left: 5vh;
-    margin-top: 6vh;
+    background-color: white;
 }
 
 .home-image {
     max-width: 100%;
     height: auto;
     padding: 0.5vmin;
-    margin-bottom: 5vh;
+    margin: 10px;
+    margin-left: 75px;
+    margin-bottom: 50px;
     border: 3px solid #a09fa0;
-    box-shadow: 0 0 0 9px #5e4f3a;
     outline: solid 6px #fff;
 }
 
 .cn-text {
-    margin-right: 30%;
     line-height: 1.25;
+    margin-left: 75px;
+    margin-right: 120px;
+    margin-bottom: 40px;
 }
 
 /*Side Portion of the Home Screen.*/
 .side {
     grid-area: side;
-    margin-top: 5vh;
+    background-color: white;
 }
 
 .scrollbar {
     padding: 5px;
-    margin-bottom: 10vh;
-    color: white;
+    margin-top: 0px;
+    margin-left: 20px;
     background-color: #800000; 
-    width: 250px;
-    max-height: 35%; 
+    width: 265px;
+    height: 425px;
     overflow-x: hidden; 
-    overflow-y: auto; 
+    overflow-y: scroll; 
 }
 
 .scrollbar p, hr {
     margin: 5% 30% 0 5%;
     line-height: 1.25;
+    color: white;
 }
 
-hr {
-    color: white;
+.contact-info {
+    margin-top: 110px;
+    margin-left: 30px;
+    font-size: 90%;
 }
 
 .contact-email {
     color: #800000;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: white;
+}
+
+/*Footer Portion.*/
+
+.footnav a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer{
+    grid-area: footer;
+    border-top: 2px solid black;
+}
+.footnav ul{
+    float: none;
+    margin-bottom: 0.5vh;
+}
+.footnav{
+    float: none;
+    text-align: center;
+}
+.footnav ul li{
+    float: none;
+    display: inline;
+}
+
+.copyright{
+    color: grey;
+    font-size: 0.75em;
+    margin-top: 0px;
 }

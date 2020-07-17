@@ -16,10 +16,23 @@
 
 .description  {
     grid-area: description;
+    text-align: start;
+    margin:3px 10px;
 }
 .images{
     grid-area: description;
+    border: 10px solid transparent;
+    margin: 10em auto;
 }
+.Box1 img{
+    height: 10em;
+    width: 20em;
+}
+.Box2 img{
+    height: 10em;
+    width: 20em;
+}
+
 
 
 
