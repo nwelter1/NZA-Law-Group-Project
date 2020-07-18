@@ -18,10 +18,14 @@ body{
 }
 .description-box {
     grid-area: description;
-
+    background: white;
     display: block;
-    margin: 30px;
 }
+.description p{
+    margin-left: 0.6vw;
+    font-weight: lighter;
+}
+
 .description{
     text-align: left;
     margin: 0;
@@ -129,7 +133,7 @@ body{
 
 .box{
     background-color: brown;
-    height: 80%;
+    height: 90%;
     width: 90%;
     color: white;
     margin-left: 1vw;
@@ -147,6 +151,17 @@ body{
 .services{
     margin-left: 7%;
     font-size: 0.8em;
+}
+.box-image{
+    margin-bottom: 0;
+}
+.attorneys{
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.meet{
+    margin-top: 0;
 }
 
 .list-head{
