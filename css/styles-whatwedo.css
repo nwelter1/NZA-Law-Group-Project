@@ -16,29 +16,32 @@ body{
         "background-left whatwedo description  background-right"
         "background-left footer      footer       background-right";
 }
-
-.description  {
+.description-box {
     grid-area: description;
-    text-align: start;
+
+    display: block;
+    margin: 30px;
+}
+.description{
+    text-align: left;
+    margin: 0;
 }
 .images{
-    grid-area: description;
     border: 10px solid transparent;
-    margin: 10em auto;
     
 }
 .Box1 img{
     height: 10em;
     width: 20em;
     border-style: double;
-    border-width: 5px;
     border-color: black;
+    position: relative;
+    
 }
 .Box2 img{
     height: 10em;
     width: 20em;
     border-style: double;
-    border-width: 5px;
     border-color: black;
 }
 
