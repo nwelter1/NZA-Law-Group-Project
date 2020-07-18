@@ -1,5 +1,9 @@
+
+
 body{
-    background-color: tan;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://thedesignest.net/wp-content/uploads/2019/06/Light-Brown-Wooden-Texture.jpg");
     font-family: Arial, Helvetica, sans-serif
 }
 
@@ -8,54 +12,44 @@ body{
     width: 100vw;
     height: 100vh;
     grid-template-columns: 1fr 2.5fr 1fr;
-    grid-template-rows: 1fr 3fr .5fr;
+    grid-template-rows: 1fr 3.5fr .5fr;
     grid-template-areas: 
-    "header   header     header"
+    "header   header    header"
     "right    middlepics   blank"
     "footer   footer       footer";  
 }
 
 .header{
-    grid-area: header;
-    background-color: tan;                                                      
-}
-
-.footer{
-    grid-area: footer;
-    background-color: tan;                                                      
-}
-
-.right{  
-    background-color: tan;
-}
-
-.blank{
-    background-color:tan;
+    grid-area: header;                                                       
 }
 
 .middlepics{    
-    background-color: white;
+    background-color: white;  
 }
+
 /*left column */
 .who-we-are {
     float: left;
     margin:2.5vh 1vw 0vh 2vw;
-    width: 25%;    
-    height: 80%;
-    background-color:#a82a45;    
+    /*width: 25%;    
+    height: 83%;*/
+    width: 14vw;
+    height:55vh;
+    background-color:#800000;    
   }
 
 
 h3{
     font-weight: lighter;
     font-size: 18px;
+    margin-left:1vw;
     padding: 1.75em 0 0 .75em;   
     color:white;
 }
 
 .line{
     color: white;
-    padding-left: 1.20em ;
+    padding-left: 1.20em;
 }
 
 ul{
@@ -63,7 +57,7 @@ ul{
     font-size: 17px;
     line-height:175%;
     color: white;
-    padding: .80em 1em 1em 1.5em; 
+    padding: 1em 1em 1em 1.5em; 
 }
 
 .logo-img{
@@ -72,8 +66,8 @@ ul{
 }
 
 h6{
-    margin: 0em 0em 0em 1em;
-    font-size: 18px ;
+    margin:.5em 0em 0em 1em;
+    font-size: 17px ;
     color:white;
 }
 
@@ -86,33 +80,87 @@ p{
  /* Right column  margin:2.5vh 1.5vw 0vh 2vw;*/
 .info-text {
     float: left;
-    width: 62%;
-    height: 90%;
-    margin-top:.5vh;   
-    ;
-  }
-  
+    /*width: 62%;
+    height: 90%;*/
+    width:35vw;
+    height:60vh;
+    margin-top:2.3vh;
+    
+}
 
 div.info-text p{
     color: black;
     font-size: 18px;
     line-height:160%;
-    margin: 2vh 0 2vh 1vw;    
+    margin: .1vh 0 2vh 1vw;    
 }
-
-
 
 .inline-pics{
     display:inline-block;
     margin-left: 1vw;
-    border: 3px double rgb(71, 70, 70);
+    border: 4px double rgb(71, 70, 70);
 }
+
+/*@-moz-document url-prefix() {
+    .inline-pics {
+        display:inline-block;
+        margin-left: .1vw;
+        border: 4px double rgb(71, 70, 70);
+    }
+}*/
 
 .inline-pics2{
     display:inline-block;
     margin-left: .25vw;
-    border: 3px double rgb(71, 70, 70);
-} 
+    border: 4px double rgb(71, 70, 70);
+}
+
+/*@-moz-document url-prefix() {
+    .inline-pics2 {
+        display:inline-block;
+        margin-top: 1vh;
+        margin-left: 20vw;
+        border: 4px double rgb(71, 70, 70);
+    }
+}*/
+
+.footer{
+    grid-area: footer;
+    margin:  0vh 22.2vw 4vh 22.2vw;
+    background-color: white;
+    border-top: 1px solid black;                                             
+}
+
+.footnav ul{
+    float: none;
+    margin-bottom: 0.5vh;     
+}
+
+.footnav{
+    float: none;
+    text-align: center;
+}
+
+.footnav ul li{   
+    float: none;  
+    display: inline; 
+    color: black;
+}
+
+.footnav a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.footnav p{     
+    color: grey;
+    font-size: 0.75em;
+    margin-bottom:.5vh
+}
+
+
+
+
  
  
 
