@@ -95,6 +95,7 @@ body{
 }
 #contactus{
     border-right: 0px solid grey;
+    margin-left: 2%;
 }
 .topnav a{
     display: block;
