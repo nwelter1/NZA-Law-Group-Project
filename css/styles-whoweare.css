@@ -26,6 +26,7 @@ body{
 .image-header img{
     margin-top: 1vh;
     margin-left: 1vw;
+    margin-top: 1vh;
 }
 
 .topnav{
@@ -66,6 +67,9 @@ body{
     display: block;
     color: black;
     text-decoration: none;
+}
+#contactus{
+    border: none;
 }
 
 /* hashtag because it is a id*/
