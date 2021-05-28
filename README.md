@@ -2,7 +2,7 @@
 
 
 
-Nate - Github Grand Master - creating original remote and merging pull requests. The Footer and Header html and css files.	
+Josh - Github Grand Master - creating original remote and merging pull requests. The Footer and Header html and css files.	
 	 - Collaborate with Nibras on What We Do page. Help with troubleshooting and feedback on pages
 	
 	 
